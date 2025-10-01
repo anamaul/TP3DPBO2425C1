@@ -7,6 +7,8 @@ saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 <img width="988" height="541" alt="image" src="https://github.com/user-attachments/assets/95d8d6e6-fd38-4e5e-899e-35197ef2ef50" />
 
+<h3>Penjelasan</h3>
+
 Dari diagram tersebut terdapat Hierarchical inheritance, Dimana class Individu mewarisi ke 3 class yaitu class KaryawanPemrosesanDaunPisang, PetaniDaunPisang, EksportirDaunPisang, karena dari ke-3 class tersebut juga memakai atribut yang ada di individu yaitu, noktp, nama, dan alamat.
 KaryawanPemrosesanDaunPisang use ke PetaniDaunPisang, karena seorang karyawan memproses daun pisang yang berasal dari petani tertentu. Karyawan dan petani dapat eksis tanpa satu sama lain.(Agregasi)
 EksportirDaunPisang use ke PetaniDaunPisang, karena eksportir memiliki atau berasosiasi dengan petani, tetapi petani tersebut dapat menjual hasil panennya ke entitas lain.(Agregasi)
