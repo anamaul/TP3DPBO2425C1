@@ -16,3 +16,11 @@ saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 * NegaraEksporDaunPisang use ke KategoriStandarEkspor, karena sebuah negara memiliki satu atau lebih standar, tetapi standar tersebut bisa diterapkan pada negara lain juga.(Agregasi)
 * PetaniDaunPisang use ke DaunPisang, karena Jika petani berhenti bekerja, daun pisang yang sudah dipanen tetap ada dan dapat dijual.(Agregasi)
 
+Atribut NoKtp, Nama, Alamat, pada class individu, itu dipakai di 3 class yang diwariskan.
+KaryawanPemrosesan, memiliki atribut jenis, yang menjelaskan kalau karyawan tersebut karyawan lepas atau karyawan tetap, dan atribut listpetanidaunpisang, use dari petanidaunpisang untuk mengetahui petani-petaninya dan list daun pisang yang dipanen.
+Listdaunpisang pada kelas petanidaunpisang, dipakai untuk mengetahui bahwa dari petani memanen daun pisang apa saja.
+StatusJualLokal pada kelas eksportirdaunpisang, digunakan untuk megnetahui kalau status jualnya lokal atau ke luar negeri(true/false)
+ListNegaraEksportirDaunPisang use ke kelas negaraekspordaunpisang, untuk mengetahui kalau dari suatu negara itu kategori standarnya seperti apa, untuk mengetahui negaranya, setiap negara memiliki kodenegara yang berbeda, yang dimana kategori standar ekspor ini didapat datanya dari kelas kategoristandarekspor
+di kelas kategoristandarekspor, memiliki atribut, kodestandar, digunakan jika mau searching kategori tertentu, maka yang dicari dari kodestandarnya, nama standar menjelaskan, kalau standar tersebut low, low medium, medium, medium high, high, atribut levelkebersihan(1-10) menjelaskan berapa tingkat kebersihannya dari 1-10, begitu pula dengan level kualitas daun dan level packaging dijelaskannya berdasarkan 1-10 tingkatannya.
+atribut Kode pada kelas daunpisang, untuk searching dari PetaniDaunPisang, agar mengetahui kalau dari petani A memanen daun pisang apa saja, karena di kelas daunpisang terdapat atribut nama, yaitu nama daun pisang.
+
