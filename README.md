@@ -23,4 +23,5 @@ StatusJualLokal pada kelas eksportirdaunpisang, digunakan untuk megnetahui kalau
 ListNegaraEksportirDaunPisang use ke kelas negaraekspordaunpisang, untuk mengetahui kalau dari suatu negara itu kategori standarnya seperti apa, untuk mengetahui negaranya, setiap negara memiliki kodenegara yang berbeda, yang dimana kategori standar ekspor ini didapat datanya dari kelas kategoristandarekspor
 di kelas kategoristandarekspor, memiliki atribut, kodestandar, digunakan jika mau searching kategori tertentu, maka yang dicari dari kodestandarnya, nama standar menjelaskan, kalau standar tersebut low, low medium, medium, medium high, high, atribut levelkebersihan(1-10) menjelaskan berapa tingkat kebersihannya dari 1-10, begitu pula dengan level kualitas daun dan level packaging dijelaskannya berdasarkan 1-10 tingkatannya.
 atribut Kode pada kelas daunpisang, untuk searching dari PetaniDaunPisang, agar mengetahui kalau dari petani A memanen daun pisang apa saja, karena di kelas daunpisang terdapat atribut nama, yaitu nama daun pisang.
+Getter setter, pada setiap kelas berfungsi untuk mengambil dan menyimpan data yang diambil sebelumnya.
 
